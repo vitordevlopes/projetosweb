@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cartão de crédito</title>
+</head>
+<body>
+
+    <main id="container">
+
+        <form id="registro__cartao">
+
+            <div id="registro__cabecalho">
+                <span id="nomeCartao">Visa</span>
+                <span id="nivelCartao">Primary</span>
+            </div>
+            
+            <div id="numero__cartao">
+                <label for="numerocartao">Número do cartão</label>
+                <input type="tel" id="input__numero__cartao" maxlength="19" required>
+            </div>
+
+            <div id="nome__cartao">
+                <label for="nomecartao">Nome no cartão</label>
+                <input type="text" id="input__nome__cartao">
+            </div>
+
+            <div>
+                <label for="mesexpiracao"> Expiração</label>
+            </div>
+
+            <div id="expiracao__cartao">
+                <input type="tel" class="input__expiracao" placeholder="Mês de expiração">
+                <input type="tel" class="input__expiracao" placeholder="Ano de expiração">
+            </div>
+            
+            <div id="ccv__cartao">
+                <label for="ccvcodigo">CCV</label>
+                <input type="tel" id="input__ccv" maxlength="3">
+            </div>
+
+            <div id="registro__botoes">
+                <input type="button" value="Cancelar" id="botaoCancelar">
+                <input type="button" value="Salvar" id="botaoSalvar">
+            </div>
+
+        </form>
+
+    </main>
+
+</body>
+
+</html>
